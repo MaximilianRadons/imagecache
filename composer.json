@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": "~7.2|~8",
-        "intervention/image": "~2.2",
+        "maximilianradons/image": "dev-master",
         "illuminate/cache": "^5.5|~6|~7|~8|~9",
         "illuminate/filesystem": "^5.5|~6|~7|~8|~9",
         "nesbot/carbon": "^2.39",
