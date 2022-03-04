@@ -133,6 +133,14 @@ class ImageCacheController extends BaseController
             }
         }
 
+        // try to load from url
+        try {
+            file_get_contents($image_path);
+            return $image_path;
+        } catch (\Throwable $th) {
+            abort(404);
+        }       
+
         // file not found
         abort(404);
     }
