@@ -38,5 +38,11 @@
             "Intervention\\Image\\Test\\": "tests/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../packages/*"
+        }
+    ]
 }
